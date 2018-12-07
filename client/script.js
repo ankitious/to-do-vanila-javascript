@@ -9,7 +9,6 @@
     const isNotEmpty = x =>  x !== "" ;
 
     const createNewItem = (textValue) => {
-
             const li = createElem('li');
             const checkBox = createElem('input');
             const label = document.createElement("label");
@@ -37,10 +36,8 @@
     const editTask = function() {
 
         const listItem = this.parentNode;
-
         const editInput = listItem.querySelector("input[type=text]");
         const label = listItem.querySelector("label");
-
         const containsClass = listItem.classList.contains("editMode");
 
         if (containsClass) {
