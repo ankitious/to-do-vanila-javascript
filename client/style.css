@@ -5,6 +5,10 @@ body {
     font-family: Lato, sans-serif;
 }
 
+.jumbotron {
+    text-align: center;
+    margin-top: 0;
+}
 .jumbotron-header {
     text-align: center;
 }
@@ -17,7 +21,7 @@ body {
     margin-bottom: 20px;
 }
 
-.add-wrapper {
+.add-wrapper, .list-wrapper , .completed-item-container{
     margin: 10px;
 }
 .add-item-input:focus {
