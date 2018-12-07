@@ -4,7 +4,7 @@
   "description": "This is todo application created with vanila javascript",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon index",
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,6 +13,7 @@
   "author": "Ankit",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemon": "^1.18.7"
   }
 }
