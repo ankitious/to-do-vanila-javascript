@@ -7,7 +7,7 @@
   "description": "This is todo application created with vanila javascript",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "node index.js"
   },
   "keywords": [
     "javascript"
