@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do App</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h2 class="jumbotron-header">To Do App</h2>
+    </div>
+
+    <div class="to-do-container">
+        <div class="add-item-container">
+            <h3>Add Item</h3>
+            <hr />
+            <div class="row add-wrapper">
+                <input type="text" class="add-item-input col-md-8 col-sm-12" />
+                <button type="button" class="btn btn-primary col-md-offset-1 col-md-2 col-sm-12" id="add-button">Add</button>
+            </div>
+        </div>
+
+        <div class="todo-list-container">
+            <h3>To Do</h3>
+            <hr />
+            <div class="row list-wrapper">
+                <ul id="incomplete-tasks">
+                    <li>
+                        <input type="checkbox">
+                        <label>Get Groceries</label>
+                        <input type="text">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </li>
+                    <li class="editMode">
+                        <input type="checkbox">
+                        <label>Pick Up Keys From Office</label>
+                        <input type="text" value="Pick Up Keys From Office">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="completed-item-container">
+            <h3>Completed</h3>
+            <hr />
+            <ul id="completed-tasks">
+                <li>
+                    <input type="checkbox" checked="">
+                    <label>See the Doctor</label>
+                    <input type="text">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
